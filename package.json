@@ -6,7 +6,7 @@
   "scripts": {
     "dev:server": "nodemon app.js",
     "prod:server": "pm2 start app.js --name aws-file-upload ",
-    "stop": "pm2 stop --name aws-file-upload "
+    "stop": "pm2 stop aws-file-upload "
   },
   "author": "",
   "license": "ISC",
