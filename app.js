@@ -48,6 +48,12 @@ app.get('/', (req, res) => {
 });
 
 // Define routes
+app.get('/delete', (req, res) => {
+    users = {}
+    res.redirect('/');
+});
+
+// Define routes
 app.get('/home', async (req, res) => {
     let email = req.query.email;
     if (!email){
